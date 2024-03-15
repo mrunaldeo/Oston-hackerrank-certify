@@ -1,0 +1,25 @@
+footer {
+    background-color: white; /* Set footer background to white */
+    padding: 20px;
+    text-align: center; /* Center-align the content */
+    position: fixed; /* Position the footer fixed */
+    bottom: 0; /* Stick the footer to the bottom */
+    width: 100%; /* Make the footer full width */
+  }
+  
+  footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer ul li {
+    display: inline-flex;
+    margin-right: 20px;
+  }
+  
+  footer ul li a {
+    text-decoration: none;
+    color: rgb(78, 136, 223); 
+  }
+  
