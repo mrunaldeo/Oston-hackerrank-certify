@@ -1,0 +1,114 @@
+.dashboard-container {
+    display: inline-block;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .dashboard-certification {
+    padding:20px 20%;
+    font-size: smaller;
+  }
+  .header {
+    background-color: #3498db;
+    color: white;
+    text-align:justify;
+    padding: 20px;
+  }
+  
+  .sections {
+    display: flex;
+    justify-content: space-around;
+    padding:0 20%;
+  }
+  
+  .section {
+    background-color: #3498db;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    flex: 1;
+    max-width: calc(33.33% - 40px); 
+  }
+  .p{
+    font-size: small;
+  }
+  .section h3 {
+    margin-top: 0;
+  }
+  .content-container {
+    display: flex;
+    /* flex-wrap:nowrap; */
+    flex-wrap: wrap;
+    justify-content:first baseline;
+    padding: 0 20%;
+    justify-content: space-around;
+  }
+  .card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    
+    border-radius: 5px;
+    max-width: calc(33.33% - 40px);
+    overflow-x: auto;
+    padding: 20px;
+    /* position: absolute; */
+    margin: 10px;
+    flex: 1; 
+    max-width: calc(33.33% - 20px); 
+  }
+  
+  .card h2 {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
+    padding:0;
+    flex:1;
+  }
+  @media screen and (max-width: 768px) {
+    .card {
+      flex-basis: calc(50% - 20px); 
+      max-width: calc(50% - 20px);
+    }
+  }
+  .get-your-role-certified{
+    padding:0 20%;
+  }
+  @media screen and (max-width: 480px) {
+    .card {
+      flex-basis: calc(100% - 20px); 
+      max-width: calc(100% - 20px);
+    }
+  }
+  .skills-certified-section {
+    justify-content:baseline;
+    padding: 20px;
+  }
+  
+  .skills-certified-section h2 {
+    margin-top: 0;
+  }
+
+  .skills-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin:10px;
+    justify-content: space-around;
+  }
+  
+  .skills-cards .card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    flex: 1 1 calc(33.33% - 20px); 
+    max-width: calc(33.33% - 20px); 
+  }
+  
+  .skills-cards .card h2 {
+    margin-top: 0;
+    align-items:baseline;
+    justify-content: space-around;
+    display: flex;
+  }
+  
